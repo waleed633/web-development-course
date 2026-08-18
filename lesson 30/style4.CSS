@@ -1,0 +1,42 @@
+/* Style.css */
+
+/* section background like the image */
+#social-media {
+  background: #2f3550;           /* dark blue */
+}
+
+/* Heading style */
+.m-heading {
+  margin-top: 6px;
+  font-weight: 700;
+}
+
+/* Button cards */
+.media_link{
+    border: 2px solid #f2a900;    /* yellow border */
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin-right: 18px;
+    background: transparent
+}
+
+/* keep spacing like the screenshot */
+.row.pt-5{
+    gap: 18px;
+}
+
+/* Text inside the button */
+.media_link h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Icons */
+.media_link i{
+    font-size: 22px;
+}
+
+/* Email button filled (already has bg-warning in hTML) */
+.media_link.bg-warning{
+    border: 2px solid #f2a900;
+}
