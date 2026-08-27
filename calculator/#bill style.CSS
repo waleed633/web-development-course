@@ -1,0 +1,25 @@
+/*
+1) Style `body`:
+   - Set font to "Open Sans" and background to black.
+
+2) Style `#container`:
+   - Set size (1000x550), add background image + dark overlay, and center it.
+
+3) Style `#calculator`:
+   - Set size (320x520), light background, center it, add top spacing, rounded corners, and shadow.
+
+4) Style display area:
+   - `#result` height 120px
+   - `#history` right aligned, small grey text
+   - `#output` right aligned, bigger text
+
+5) Style keyboard + buttons:
+   - `#keyboard` height 400px
+   - `.operator, .number, .empty` circular buttons with same size, spacing, bold text
+   - `.number, .empty` match calculator background
+   - `.number, .operator` show pointer cursor
+   - `:active` reduce font size, `:focus` remove outline
+
+6) Highlight special operator buttons using `nth-child()`:
+   - 4, 8, 12, 16, 20 get bigger font and different background colors.
+*/
