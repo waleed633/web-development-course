@@ -1,0 +1,10 @@
+/* 1) Style the Social Media section background: */
+#social-media {
+    background: #2f3550; /* Dark bluish background */
+}
+
+/* 2) Style the main heading .m-heading: */
+.m-heading {
+    font-weight: 700;  /* Make it bold */
+    margin-top: 6px;   /* Add a small top gap */
+}
